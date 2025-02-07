@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 95vh;
+    width: 100%;
+    background-color:violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/06/59/75/03/1000_F_659750302_oh2PPCFWxITD8ZZvhwNfiht9ACGoOOw7.jpg);
+    object-fit: cover;
+    /* background-repeat: no-repeat; */
+}
+section h1{
+    margin-left: 40%;
+}
+
+section{
+    height: 500px;
+    width:400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+padding-top: 60px;
+border-radius: 20px;
+box-shadow: 10px 10px 10px crimson,
+10px 10px 10px white inset;
+background-image: url(https://media.istockphoto.com/id/2167417118/photo/the-aurora-or-northern-lights-were-caused-by-the-strong-magnetic-storms-due-to-solar-activity.jpg?s=1024x1024&w=is&k=20&c=EwgN7pUAzJ6OuGKBiHE5U5BKo3-1jmBh4lt9c3vEEBM=);
+
+}
+section .form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    position: relative;
+}
+.b1{
+    padding-top: 7%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    
+}
+p{
+    padding-top: 30px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
